@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--c3);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+h1 {
+  color: var(--c5);
+  font-weight: var(--w2);
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 100%;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1.2rem !important;
+}
+.card-img-top {
+  border-top-right-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;
+}
+.card-body {
+  margin: 2rem 24px;
+}
+.card-body h4 {
+  font-weight: var(--w3);
+  color: var(--c5);
+  font-size: 1.5rem;
+}
+.card-body p {
+  font-weight: var(--w1);
+  color: var(--c4);
+}
+.annual h5 {
+  font-size: 1rem;
+  font-weight: var(--w3);
+  color: var(--c5);
+}
+.annual p {
+  font-size: 1rem;
+  font-weight: var(--w1);
+  color: var(--c4);
+}
+.change a {
+  color: var(--c2);
+}
+.change a > h6 {
+  font-weight: var(--w3);
+}
+.music-info {
+  padding: 10px 1rem;
+  background-color: var(--c3);
+  border-radius: 1.2rem;
+  margin-bottom: 18px;
+}
+.btn-payment {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: var(--c2);
+  font-size: 14px;
+  color: var(--c1);
+  font-weight: var(--w2);
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgb(56, 41, 224, 0.18),
+    0 10px 10px rgb(56, 41, 224, 0.18);
+}
+.btn-payment:focus,
+.btn-payment:hover,
+.btn-payment:focus {
+  background-color: rgb(56, 41, 224, 0.7);
+  color: var(--c1);
+}
+.btn-cancel {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: transparent;
+  font-size: 14px;
+  color: var(--c4);
+  font-weight: var(--w2);
+  border-radius: 10px;
+}
+.btn-cancel:focus,
+.btn-cancel:hover,
+.btn-cancel:focus {
+  color: var(--c5);
+}
+.by > a {
+  text-decoration: var(--c2);
+  font-weight: var(--w2);
+}
